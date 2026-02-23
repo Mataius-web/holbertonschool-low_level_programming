@@ -8,19 +8,19 @@
 
 int main(void)
 {
-unsigned int numbers;
-for (numbers = 0; numbers <= 9; numbers++)
+int i;
+
+i = 0;
+while (i <= 9)
 {
-putchar(numbers + '0');
-if (numbers != 9)
+putchar('0' + i);
+if (i < 9)
 {
 putchar(',');
 putchar(' ');
 }
-else
-{
-putchar('$');
+i++;
 }
-}
+putchar('\n');
 return (0);
 }
