@@ -12,9 +12,15 @@ unsigned int numbers;
 for (numbers = 0; numbers <= 9; numbers++)
 {
 putchar(numbers + '0');
-putchar((numbers == 9) ? '$' : ',');
-putchar((numbers == 9) ? '\0' : ' ');
+if (numbers != 9)
+{
+putchar(',');
+putchar(' ');
 }
-putchar('\n');
+else
+{
+putchar('$');
+}
+}
 return (0);
 }
