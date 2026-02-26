@@ -28,12 +28,12 @@ printf("%d", i);
 }
 if (i < 100)
 {
-printf(' ');
-}
+printf(" ");
 }
 else
 {
 printf("\n");
+}
 }
 return (0);
 }
