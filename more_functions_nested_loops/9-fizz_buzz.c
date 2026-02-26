@@ -4,7 +4,7 @@
  * fizz_buzz - fizz buzz function
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 int i;
 
@@ -28,4 +28,5 @@ printf("%d ", i);
 }
 }
 printf("\n");
+return (0);
 }
