@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - fizz buzz function
+ * main - fizz buzz function
+ * Return: 0 if succes
  */
 
 int main(void)
