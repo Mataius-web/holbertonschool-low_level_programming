@@ -29,7 +29,7 @@ found = 1;
 result = result * 10 + (s[i] - '0');
 }
 else if (found == 1)
-return (0);
+break;
 i++;
 }
 return (sign * result);
