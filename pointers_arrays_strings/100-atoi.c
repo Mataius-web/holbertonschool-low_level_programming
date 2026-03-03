@@ -32,5 +32,7 @@ else if (found == 1)
 break;
 i++;
 }
-return (sign * (int)result);
+if (sign == -1)
+return (-(int)result);
+return ((int)result);
 }
