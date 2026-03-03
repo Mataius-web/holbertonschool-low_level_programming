@@ -19,9 +19,9 @@ found = 0;
 
 while (s[i] != '\0')
 {
-if (s[i] == '-')
+if (found == 0 && s[i] == '-')
 sign = sign * -1;
-else if (s[i] == '+')
+else if (found == 0 && s[i] == '+')
 sign = sign * 1;
 else if (s[i] >= '0' && s[i] <= '9')
 {
