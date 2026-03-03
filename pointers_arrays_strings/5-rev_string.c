@@ -14,11 +14,13 @@ char tempo;
 start = 0;
 end = 0;
 while (s[end] != '\0')
+{
 end++;
+}
 end--;
 while (start < end)
 {
-temp = s[start];
+tempo = s[start];
 s[start] = s[end];
 s[end] = tempo;
 start++;
