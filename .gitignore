@@ -1,0 +1,8 @@
+# Compiled binary outputs
+a.out
+*.out
+*.o
+
+# Editor and OS files
+.DS_Store
+*~
