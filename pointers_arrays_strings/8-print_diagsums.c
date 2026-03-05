@@ -19,8 +19,8 @@ diag2 = 0;
 i = 0;
 while (i < size)
 {
-diag1 += a[i * size + i];
-diag2 += a[i * size + (size - 1 - i)];
+diag1 += a[i *size + i];
+diag2 += a[i *size + (size - 1 - i)];
 i++;
 }
 printf("%d, %d\n", diag1, diag2);
