@@ -22,6 +22,7 @@ Code follows the **Betty** style guide.
 | [`more_functions_nested_loops`](./more_functions_nested_loops) | More custom functions, FizzBuzz, and visual patterns |
 | [`pointers_arrays_strings`](./pointers_arrays_strings) | Pointers, arrays, strings, and custom string-function implementations |
 | [`simple-calculator`](./simple-calculator) | Interactive command-line calculator using `scanf` and `if/else` |
+| [`argc_argv`](./argc_argv) | Using command-line arguments: `argc`, `argv`, and argument processing |
 | [`intro_debugging`](./intro_debugging) | Reading compiler errors and fixing buggy C programs |
 | [`benchmarking`](./benchmarking) | Measuring and comparing the performance of C programs |
 
