@@ -1,26 +1,27 @@
 #include "dog.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
- * _strdup - duplicates a string
- * @str: the string to duplicate
+ * str_copy - copies a string into a new allocation
+ * @str: the string to copy
  *
  * Return: pointer to the new string, or NULL on failure
  */
-static char *_strdup(char *str)
+static char *str_copy(char *str)
 {
 	char *copy;
-	int len = 0;
+	int len;
 
 	if (str == NULL)
 		return (NULL);
-	while (str[len])
-		len++;
+	for (len = 0; str[len]; len++)
+		;
 	copy = malloc(sizeof(char) * (len + 1));
 	if (!copy)
 		return (NULL);
-	memcpy(copy, str, len + 1);
+	for (len = 0; str[len]; len++)
+		copy[len] = str[len];
+	copy[len] = '\0';
 	return (copy);
 }
 
@@ -39,13 +40,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog = malloc(sizeof(dog_t));
 	if (!dog)
 		return (NULL);
-	dog->name = _strdup(name);
+	dog->name = str_copy(name);
 	if (!dog->name)
 	{
 		free(dog);
 		return (NULL);
 	}
-	dog->owner = _strdup(owner);
+	dog->owner = str_copy(owner);
 	if (!dog->owner)
 	{
 		free(dog->name);
