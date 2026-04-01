@@ -23,8 +23,19 @@ Code follows the **Betty** style guide.
 | [`pointers_arrays_strings`](./pointers_arrays_strings) | Pointers, arrays, strings, and custom string-function implementations |
 | [`simple-calculator`](./simple-calculator) | Interactive command-line calculator using `scanf` and `if/else` |
 | [`argc_argv`](./argc_argv) | Using command-line arguments: `argc`, `argv`, and argument processing |
+| [`recursion`](./recursion) | Recursive functions: factorial, power, square root, prime check |
+| [`malloc_free`](./malloc_free) | Dynamic memory allocation with `malloc` and `free` |
+| [`more_malloc_free`](./more_malloc_free) | Advanced dynamic allocation: `calloc`, checked malloc, array ranges |
+| [`structures_typedef`](./structures_typedef) | Custom data types with `struct` and `typedef` |
+| [`function_pointers`](./function_pointers) | Callbacks and dispatch tables using function pointers |
+| [`variadic_functions`](./variadic_functions) | Variable-argument functions using `stdarg.h` |
+| [`singly_linked_lists`](./singly_linked_lists) | Building and traversing singly linked lists |
+| [`doubly_linked_lists`](./doubly_linked_lists) | Building and traversing doubly linked lists |
+| [`hash_tables`](./hash_tables) | Hash tables with djb2 hashing and chained collision handling |
 | [`intro_debugging`](./intro_debugging) | Reading compiler errors and fixing buggy C programs |
+| [`dynamic_analysis`](./dynamic_analysis) | Runtime debugging with GDB and Visual Studio Code |
 | [`benchmarking`](./benchmarking) | Measuring and comparing the performance of C programs |
+| [`secure_data_handling`](./secure_data_handling) | Safe session management and in-memory store in C |
 
 ## Requirements
 
