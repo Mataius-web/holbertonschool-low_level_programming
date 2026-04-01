@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-sddssd
-=======
 # C - Intro to Debugging
 
 > Learning to read, understand, and fix buggy C code — a critical skill for every developer.
@@ -66,4 +63,3 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 file.c -o output
 
 ---
 *Project completed as part of the Holberton School curriculum.*
->>>>>>> d5beb7ae0b3a8628f55ff5c28517cde3ee5a996e
