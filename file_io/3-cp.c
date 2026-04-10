@@ -2,14 +2,6 @@
 #include <stdio.h>
 
 /**
- * main - copies content of a file to another file
- * @argc: number of arguments
- * @argv: arguments vector
- *
- * Return: 0 on success
- */
-
-/**
  * close_or_die - Closes a file descriptor or exits with code 100.
  * @fd: File descriptor to close.
  */
